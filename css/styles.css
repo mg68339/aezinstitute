@@ -1,0 +1,84 @@
+body {
+  background-color: #FEFEFE;
+
+}
+
+.nav-link {
+  color: cadetblue;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.navbar-brand-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  /* mix-blend-mode: color-burn; */
+
+}
+
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 1000;
+}
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+ }
+p{
+  color: #706f6f;
+}
+
+#features{
+  padding: 7% 15%;
+  
+}
+.card{
+  text-align: center;
+  /* padding: 5%; */
+  /* margin: 20px; */
+  height: 88%;
+ }
+ .title-img{
+  width: 60%;
+  
+ }
+ .heading{
+  font-family:'Montserrat',sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 11%;
+  text-align: center;
+
+}
+
+/* hover effect on cards */
+.hover-effect {
+  background-color: #F9F5F6;
+  transition: background-color 0.3s ease;
+}
+
+.hover-effect:hover {
+  background-color: #0079FF; 
+}
